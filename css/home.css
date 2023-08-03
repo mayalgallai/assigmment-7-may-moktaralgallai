@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "kumbh sans" sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background: #EFF7F6;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+}
+.navbarcon {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  max-width: 1300px;
+
+}
+#navbarlogo {
+  background-color: #353535;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.navbarmenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbaritm {
+  height: 90px;
+}
+.navbarlink {
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  text-decoration: none;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.navbarbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #506D84;
+ 
+  color: #000;
+ 
+ 
+}
+    .serch
+    {
+      
+        margin: 10px;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 30px;
+  padding: 6px;
+  font-size: 15px
+}
+.main{
+background-color: #ffffff;
+
+margin-top: 0px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+  width: 100%;
+max-width: 1300px;
+padding: 0 50px;
+width: 100%;
+height: 100%;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.input{
+margin: 10px;  
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border: 10px;
+border-radius: 10px;
+background-color: #EFF7F6;
+width: 300px;
+margin-top: 20px;
+padding: 6px;
+font-size: 15px
+}
+.btn 
+{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 30px;
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background: #506D84;
+  font-size: 2rem;
+  color: #000;
+}
+.btn button
+{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 30px;
+
+  border: none;
+  border-radius: 10px;
+  background: #506D84;
+  
+  color: #000;
+}
+
